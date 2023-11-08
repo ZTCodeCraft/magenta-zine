@@ -5,7 +5,7 @@ description: "Блог"
 logo: 'assets/images/logos/1.png'
 logo-long: 'assets/images/logos/3.png'
 favicon: 'assets/images/logos/1.png'
-baseurl: /mediumish-theme-jekyll
+baseurl: /magenta-zine
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
