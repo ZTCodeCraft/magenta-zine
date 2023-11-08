@@ -3,7 +3,7 @@ layout: post
 title:  "Сълзи"
 author: "Мария Дачева"
 categories: [ Поезия ]
-image: assets/images/7.jpg
+image: assets/images/7.png
 ---
 
 `jekyll new <PATH>` installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called `myblog`. Here are some additional details:
