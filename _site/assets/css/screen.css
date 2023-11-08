@@ -7,7 +7,10 @@ License: https://www.wowthemes.net/freebies-license/
 :root {
     --mg-dark-pink: #9E6589;
     --mg-light-pink: #D09EA8;
+    --mg-pale-pink: #EDD0D5;
     --mg-brown: #564145;
+    --mg-card: #edd0d538;
+    --mg-nav: #f2eddd;
   }
 
 @media screen and (min-width:1500px) {
@@ -112,6 +115,10 @@ section.recent-posts {
     }
 }
 
+.navbar {
+    background-color: var(--mg-nav) !important;
+}
+
 .listfeaturedtag {
     border: 1px solid var(--mg-light-pink);
     /* rgba(0, 0, 0, .125); */
@@ -135,6 +142,10 @@ section.recent-posts {
 
 .card {
     border-color: var(--mg-light-pink);
+}
+
+.card-featured{
+    background-color: var(--mg-card);
 }
 
 .listfeaturedtag .card,
@@ -237,13 +248,14 @@ section.recent-posts {
 }
 
 span.post-name,
+span.post-author,
 span.post-date,
 span.author-meta {
     display: inline-block;
 }
 
-span.post-name {
-    color: var(--mg-brown);
+span.post-author {
+    color: var(--mg-brown) !important;
 }
 
 span.post-date,
@@ -323,8 +335,13 @@ span.post-read-more a:hover {
     cursor: pointer;
 }
 
+.navbar-brand {
+     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 .mediumnavigation .navbar-brand img {
-    max-height: 80px;
+    max-height: 70px;
     margin-right: 5px;
 }
 

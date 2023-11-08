@@ -3,10 +3,10 @@
   <channel>
     <title>Mediumish</title>
     <description>Блог</description>
-    <link>http://localhost:4000/mediumish-theme-jekyll/</link>
-    <atom:link href="http://localhost:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Nov 2023 15:19:51 +0200</pubDate>
-    <lastBuildDate>Wed, 08 Nov 2023 15:19:51 +0200</lastBuildDate>
+    <link>http://localhost:4000/magenta-zine/</link>
+    <atom:link href="http://localhost:4000/magenta-zine/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Nov 2023 16:57:21 +0200</pubDate>
+    <lastBuildDate>Wed, 08 Nov 2023 16:57:21 +0200</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -19,8 +19,8 @@
 	И това ли беше знак, предупреждение, почти на глас изрече Александра, а двете жени я поглеждат с тревога, понечват да я заговорят, но Александра рязко обръща главата си встрани, те са деликатни, интелигентни, не искат да се натрапват, продължават прекъснатия си разговор, който е, естествено, за пандемията.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/powerful-things-markdown-editor/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/powerful-things-markdown-editor/</guid>
+        <link>http://localhost:4000/magenta-zine/powerful-things-markdown-editor/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/powerful-things-markdown-editor/</guid>
         
         
         <category>Поезия</category>
@@ -42,8 +42,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/first-mass-produced/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/first-mass-produced/</guid>
+        <link>http://localhost:4000/magenta-zine/first-mass-produced/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/first-mass-produced/</guid>
         
         
         <category>Поезия</category>
@@ -82,7 +82,7 @@
 
 &lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mediumish-theme-jekyll/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/magenta-zine/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
 
@@ -97,8 +97,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/education/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/education/</guid>
+        <link>http://localhost:4000/magenta-zine/education/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/education/</guid>
         
         
         <category>есета и статии</category>
@@ -120,8 +120,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/acumulated-experience/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/acumulated-experience/</guid>
+        <link>http://localhost:4000/magenta-zine/acumulated-experience/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/acumulated-experience/</guid>
         
         
         <category>Поезия</category>
@@ -141,8 +141,8 @@
 &lt;p&gt;For more information about how to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 May 2018 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/about-bundler/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/about-bundler/</guid>
+        <link>http://localhost:4000/magenta-zine/about-bundler/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/about-bundler/</guid>
         
         
         <category>есета и статии</category>
@@ -156,8 +156,8 @@
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/we-all-wait-for-summer/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/we-all-wait-for-summer/</guid>
+        <link>http://localhost:4000/magenta-zine/we-all-wait-for-summer/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/we-all-wait-for-summer/</guid>
         
         
         <category>Поезия</category>
@@ -180,8 +180,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/tree-of-codes/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/tree-of-codes/</guid>
+        <link>http://localhost:4000/magenta-zine/tree-of-codes/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/tree-of-codes/</guid>
         
         
         <category>Поезия</category>
@@ -203,8 +203,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/red-riding/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/red-riding/</guid>
+        <link>http://localhost:4000/magenta-zine/red-riding/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/red-riding/</guid>
         
         
         <category>Поезия</category>
@@ -229,8 +229,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/press-and-education/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/press-and-education/</guid>
+        <link>http://localhost:4000/magenta-zine/press-and-education/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/press-and-education/</guid>
         
         
         <category>Поезия</category>
@@ -250,8 +250,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/options-for-creating-new-site-with-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/options-for-creating-new-site-with-jekyll/</guid>
+        <link>http://localhost:4000/magenta-zine/options-for-creating-new-site-with-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/magenta-zine/options-for-creating-new-site-with-jekyll/</guid>
         
         
         <category>Поезия</category>
