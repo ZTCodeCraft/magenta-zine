@@ -6,13 +6,31 @@ Template Name: Magenta Zine
     --mg-dark-pink: #9E6589;
     --mg-light-pink: #D09EA8;
     --mg-pale-pink: #EDD0D5;
+    --mg-bold-pink: #FB80D1;
     --mg-brown: #564145;
     --mg-card: #edd0d538;
     --mg-nav: #f2eddd;
   }
 
+
+.light-pink-text {
+    color: var(--mg-light-pink);
+}
+
+.dark-pink-text {
+    color: var(--mg-dark-pink);
+}
+
+.bold-pink-text {
+    color: var(--mg-bold-pink);
+}
+
+.brown-text {
+    color: var(--mg-brown);
+}
+
 @media screen and (min-width:1500px) {
-    html { font-size:18px; } /* Increase the font size on higher resolutions */
+    html { font-size:16px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
 }
 .mainheading {
@@ -111,10 +129,6 @@ section.recent-posts {
         padding-right: 0.8rem;
         padding-left: 0.8rem;
     }
-}
-
-.navbar {
-    background-color: var(--mg-nav) !important;
 }
 
 .listfeaturedtag {
@@ -322,8 +336,12 @@ span.post-read-more a:hover {
     font-size: 1.2rem;
 }
 
-.nav-link {
-    color: var(--mg-brown) !important;
+.nav-item a {
+    color: var(--mg-dark-pink) !important;
+}
+
+.nav-item a:hover {
+    color: var(--mg-light-pink) !important; /* Change this to your desired color on hover */
 }
 
 .mediumnavigation .search-icon {
@@ -561,6 +579,16 @@ ul.tags li a:hover {
     background: #999;
     margin: 0px auto;
     margin-bottom: 1.2rem;
+}
+
+.btn.pink {
+    color: #fff;
+    background-color: var(--mg-light-pink);
+    border-color: var(--mg-dark-pink);
+}
+
+.btn.pink:hover {
+    background-color: var(--mg-dark-pink);
 }
 
 .btn.follow {
@@ -932,4 +960,11 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+.about-text {
+    font-family: Merriweather;
+    font-size: 1.1rem;
+    line-height: 1.84;
+    color: rgba(0, 0, 0, .8);
 }
