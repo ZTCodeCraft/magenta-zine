@@ -37,6 +37,19 @@ Template Name: Magenta Zine
     padding: 1rem 0rem 2rem;
 }
 
+.bg-img {
+    /* background-image: url("/magenta-zine/assets/images/paper.jpg"); */
+    /* background-color: rgba(204, 204, 204, 0.5); */
+    /* height: 500px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;  */
+}
+
+.card-ignore-padding {
+    padding-left: 0% !important;
+}
+
 a {
     color: var(--mg-brown);
     transition: all 0.2s;
@@ -65,7 +78,7 @@ pre {
 }
 
 .mediumnavigation {
-    background: rgba(255, 255, 255, .97);
+    /* background: rgba(255, 255, 255, .97); */
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
