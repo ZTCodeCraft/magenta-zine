@@ -5,8 +5,8 @@
     <description>Блог</description>
     <link>http://localhost:4000/magenta-zine/</link>
     <atom:link href="http://localhost:4000/magenta-zine/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Nov 2023 14:15:30 +0200</pubDate>
-    <lastBuildDate>Mon, 13 Nov 2023 14:15:30 +0200</lastBuildDate>
+    <pubDate>Mon, 13 Nov 2023 14:36:26 +0200</pubDate>
+    <lastBuildDate>Mon, 13 Nov 2023 14:36:26 +0200</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>

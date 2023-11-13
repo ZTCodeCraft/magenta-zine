@@ -8,7 +8,7 @@ Template Name: Magenta Zine
     --mg-pale-pink: #EDD0D5;
     --mg-bold-pink: #FB80D1;
     --mg-brown: #564145;
-    --mg-card: #edd0d538;
+    --mg-trasp-pink: #f8e9ece0;
     --mg-nav: #f2eddd;
   }
 
@@ -74,7 +74,7 @@ pre {
 }
 
 .mediumnavigation {
-    /* background: rgba(255, 255, 255, .97); */
+    background: var(--mg-trasp-pink);
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
@@ -163,7 +163,7 @@ section.recent-posts {
 
 
 .card-featured{
-    background-color: var(--mg-card);
+    background-color: var(--mg-trasp-pink);
 }
 
 .listfeaturedtag .card,
