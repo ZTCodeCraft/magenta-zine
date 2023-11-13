@@ -46,10 +46,6 @@ Template Name: Magenta Zine
     background-size: cover;  */
 }
 
-.card-ignore-padding {
-    padding-left: 0% !important;
-}
-
 a {
     color: var(--mg-brown);
     transition: all 0.2s;
@@ -165,9 +161,6 @@ section.recent-posts {
     overflow: hidden;
 }
 
-.card {
-    border-color: var(--mg-light-pink);
-}
 
 .card-featured{
     background-color: var(--mg-card);
@@ -895,6 +888,15 @@ iframe {
     -webkit-order: -1;
     -ms-flex-order: -1;
     order: -1;
+}
+
+@media (min-width: 992px){
+    .col-lg-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+        padding-left: 0px;
+    }
 }
 
 @media (min-width: 768px) {
