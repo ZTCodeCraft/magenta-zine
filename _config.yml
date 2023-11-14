@@ -2,9 +2,9 @@
 name: "Magenta Zine"
 title: "Magenta Zine"
 description: "Блог"
-logo: 'assets/images/logos/1.png'
-logo-long: 'assets/images/logos/3.png'
-favicon: 'assets/images/logos/1.png'
+logo: 'assets/images/logos/square.png'
+logo-long: 'assets/images/logos/long.png'
+favicon: 'assets/images/logos/square.png'
 baseurl: /magenta-zine
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'

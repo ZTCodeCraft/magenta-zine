@@ -7,7 +7,7 @@ post_class: post-template
 
 <!-- Begin Article
 ================================================== -->
-<div class="container">
+<div class="container mt-4">
     <div class="row">
 
         <!-- Post Share -->
@@ -18,15 +18,15 @@ post_class: post-template
         <!-- Post -->
 
         <div class="col-md-9 flex-first flex-md-unordered">
-            <div class="mainheading">
+            <div class="mainheading text-center">
 
                 <!-- Post Title -->
-                <h1 class="posttitle text-dark">{{ page.title }}</h1>
+                <h1 class="posttitle text-dark mb-4">{{ page.title }}</h1>
 
                 <!-- Author Box -->
                 {% if page.author %}
-                <div class="row post-top-meta">
-                    <div class="col-xs-12 col-md-3 text-center text-md-left mb-4 mb-md-0">
+                <div class="row post-top-meta justify-content-center">
+                    <div class="mb-4">
                         <a target="_blank" class="post-author">{{ page.author }}</a>
  
                     </div>
@@ -48,7 +48,7 @@ post_class: post-template
             {% if site.lazyimages == "enabled" %}
             <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% else %}
-            <div class="maxthumb post-img">
+            <div class="maxthumb post-img d-flex justify-content-center">
             <img class="img-fluid rounded" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             </div>
             {% endif %}
@@ -57,7 +57,7 @@ post_class: post-template
             <!-- End Featured Image -->
 
             <!-- Post Content -->
-            <div class="article-post">
+            <div class="article-post d-flex align-items-center flex-column">
                 <!-- Toc if any -->
                 {% if page.toc %}
                     {% if page.beforetoc %}

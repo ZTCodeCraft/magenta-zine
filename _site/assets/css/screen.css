@@ -147,9 +147,18 @@ section.recent-posts {
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
-.text-dark {
+.text-dark-pink-solid {
     color: var(--mg-dark-pink) !important;
 }
+
+.text-dark-pink {
+    color: var(--mg-dark-pink) !important;
+}
+
+.text-dark-pink:hover {
+    color: var(--mg-bold-pink) !important;
+}
+
 .listfeaturedtag .wrapthumbnail {
     height: 290px;
     flex: 0 0 auto;
@@ -229,7 +238,7 @@ section.recent-posts {
 }
 
 .post-top-meta {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .post-top-meta .author-thumb {
@@ -237,7 +246,7 @@ section.recent-posts {
     height: 72px;
 }
 
-.post-top-meta.authorpage .author-thumb {
+.post-top-meta.authorpage .author-thumb, .mt-4 {
     margin-top: 40px;
 }
 
@@ -294,7 +303,7 @@ span.post-read-more a {
 
 span.post-name a,
 span.post-read-more a:hover {
-    color: rgba(0, 0, 0, .8);
+    color: var(--mg-bold-pink);
 }
 
 .dot:after {
@@ -347,7 +356,7 @@ span.post-read-more a:hover {
 }
 
 .nav-item a:hover {
-    color: var(--mg-light-pink) !important; /* Change this to your desired color on hover */
+    color: var(--mg-bold-pink) !important;
 }
 
 .mediumnavigation .search-icon {
@@ -417,7 +426,7 @@ blockquote {
 }
 
 .post-img {
-    margin-bottom: 2.5rem;
+    margin-bottom: 5rem;
 }
 
 .share {
