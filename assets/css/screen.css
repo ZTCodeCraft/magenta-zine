@@ -153,6 +153,7 @@ section.recent-posts {
 
 .text-dark-pink {
     color: var(--mg-dark-pink) !important;
+    transition: color 0.3s ease;
 }
 
 .text-dark-pink:hover {
@@ -792,10 +793,6 @@ h6 {
     font-size: 1rem;
 }
 
-.layout-page .article-post p {
-    margin-bottom: 1rem;
-}
-
 img {
     max-width: 100%;
 }
@@ -991,4 +988,12 @@ iframe {
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
+}
+
+.about-text p {
+    margin-bottom: 2rem;
+}
+
+.about-text li {
+    margin-bottom: 1.5rem;
 }
