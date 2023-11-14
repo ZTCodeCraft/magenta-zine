@@ -18,6 +18,26 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+<script>
+  //load TrackerJS
+  !function(t,n,e,o,a){function d(t){var n=~~(Date.now()/3e5),o=document.createElement(e);o.async=!0,o.src=t+"?ts="+n;var a=document.getElementsByTagName(e)[0];a.parentNode.insertBefore(o,a)}t.MooTrackerObject=a,t[a]=t[a]||function(){return t[a].q?void t[a].q.push(arguments):void(t[a].q=[arguments])},window.attachEvent?window.attachEvent("onload",d.bind(this,o)):window.addEventListener("load",d.bind(this,o),!1)}(window,document,"script","//cdn.stat-track.com/statics/moosend-tracking.min.js","mootrack");
+  //tracker has to be initialized otherwise it will generate warnings and wont sendtracking events
+  mootrack('init', '05bf1013-c053-4564-8f59-8627f6166e1f');
+</script>
+
+<script>
+  function subscribeNewsletter() {
+      // Get the user's email from the input field
+      var userEmail = document.getElementById('email').value;
+
+      // Call the Moosend identify function with the user's email
+      mootrack('identify', userEmail);
+
+      // You can add additional actions here, such as displaying a confirmation message
+      alert('Thank you for subscribing!');
+  }
+</script>
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -52,6 +72,16 @@ ga('send', 'pageview');
     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
+
+    <h2>Subscribe to Our Newsletter</h2>
+
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <button type="button" onclick="subscribeNewsletter()">Subscribe</button>
+    </form>
+
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
