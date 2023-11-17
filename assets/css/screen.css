@@ -5,6 +5,7 @@ Template Name: Magenta Zine
 :root {
     --mg-dark-pink: #BC408F;
     --mg-old-dark-pink: #9E6589;
+    --mg-light-pink: #D09EA8;
     --mg-pale-pink: #EDD0D5;
     --mg-bold-pink: #FB80D1;
     --mg-brown: #564145;
@@ -599,12 +600,12 @@ ul.tags li a:hover {
 
 .btn.pink {
     color: #fff;
-    background-color: var(--mg-light-pink);
+    background-color: var(--mg-dark-pink);
     border-color: var(--mg-dark-pink);
 }
 
 .btn.pink:hover {
-    background-color: var(--mg-dark-pink);
+    background-color: var(--mg-light-pink);
 }
 
 .btn.follow {

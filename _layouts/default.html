@@ -29,16 +29,52 @@
 
 <script>
   function subscribeNewsletter() {
-      // Get the user's email from the input field
-      var userEmail = document.getElementById('email').value;
+    // Get the user's email from the input field
+    var userEmail = document.getElementById('email').value;
 
-      // Call the Moosend identify function with the user's email
-      mootrack('identify', userEmail);
+    // Check if the email field is empty
+    if (userEmail.trim() === '') {
+      // Display an alert for empty email
+      alert('Моля въведете вашия имейл адрес!');
+      return; // Exit the function if the email is empty
+    }
 
-      // You can add additional actions here, such as displaying a confirmation message
-      alert('Thank you for subscribing!');
+    // Call the Moosend identify function with the user's email
+    mootrack('identify', userEmail);
+
+    // Display a Bootstrap modal with a pretty message
+    $('#subscriptionModal').modal('show');
   }
 </script>
+
+
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="subscriptionModal" tabindex="-1" role="dialog" aria-labelledby="subscriptionModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title dark-pink-text" id="subscriptionModalLabel">Успешно абониране!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <!-- Your logo image -->
+        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="" class="img-fluid mb-3" style="max-height: 100px;">
+
+        <!-- Confirmation message -->
+        <p class="mb-0 dark-pink-text" style="white-space: nowrap;">
+          Благодарим, че се абонирахте за Магента Зин!
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn pink" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 </head>
 
