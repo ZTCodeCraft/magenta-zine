@@ -16,13 +16,13 @@
                 {% endif %}
             </a>
         </div>
-        <div class="card-body">
+        <div class="card-body card-normal-post">
             <h2 class="card-title">
-                <a class="text-dark-pink" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h2>
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
         </div>
-        <div class="card-footer bg-white">
+        <div class="card-footer card-normal-post">
             <div class="wrapfooter">
                 {% if post.author %}
                 <span class="meta-footer-thumb">

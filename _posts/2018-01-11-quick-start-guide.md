@@ -3,7 +3,7 @@ layout: post
 title:  "Дрезден"
 author: "Гео Милев"
 categories: [ Pазкази ]
-image: assets/images/1.png
+image: assets/images/6.png
 featured: true
 hidden: true
 ---

@@ -3,15 +3,20 @@ Template Name: Magenta Zine
 */
 
 :root {
-    --mg-dark-pink: #BC408F;
+    --mg-dark-pink: #c60f7b;
     --mg-old-dark-pink: #9E6589;
-    --mg-light-pink: #D09EA8;
+    --mg-light-pink: #FB80D1;
     --mg-pale-pink: #EDD0D5;
     --mg-bold-pink: #FB80D1;
     --mg-brown: #564145;
     --mg-trasp-pink: #fce4ec;
-    --mg-nav: #f2eddd;
-  }
+    --mg-nav: #F7EEED;
+    --mg-bg: #F7EEED;
+    --mg-text: #002a22;
+    --mg-text-featured: #edf6f9;
+    --mg-card-bg: #FFFFFF;
+    --mg-card-bg-featured: #aa4465;
+}
 
 
 .light-pink-text {
@@ -30,6 +35,10 @@ Template Name: Magenta Zine
     color: var(--mg-brown);
 }
 
+.about-content{
+    color: var(--mg-dark-pink);
+}
+
 @media screen and (min-width:1500px) {
     html { font-size:16px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
@@ -38,14 +47,11 @@ Template Name: Magenta Zine
     padding: 1rem 0rem 2rem;
 }
 
-.bg-img {
-    /* background-image: url("/magenta-zine/assets/images/paper.jpg"); */
-    /* background-color: rgba(204, 204, 204, 0.5); */
-    /* height: 500px;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;  */
+
+.bg-site, .bg-nav {
+    background-color: var(--mg-bg) !important;
 }
+
 
 a {
     color: var(--mg-brown);
@@ -75,7 +81,6 @@ pre {
 }
 
 .mediumnavigation {
-    background: #ffffffe8;
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
@@ -142,7 +147,7 @@ section.recent-posts {
 }
 
 .listfeaturedtag {
-    border: 1px solid var(--mg-light-pink);
+    border: 1px solid var(--mg-text);
     /* rgba(0, 0, 0, .125); */
     border-radius: .25rem;
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
@@ -174,7 +179,11 @@ section.recent-posts {
 
 
 .card-featured{
-    background-color: var(--mg-trasp-pink);
+    background-color: var(--mg-card-bg-featured);
+}
+
+.card-normal-post {
+    background-color: var(--mg-card-bg);
 }
 
 .listfeaturedtag .card,
@@ -203,12 +212,39 @@ section.recent-posts {
     line-height: 1.25;
 }
 
+.listfeaturedtag h2.card-title{
+    color: var(--mg-text-featured);
+}
+
+.listfeaturedtag span.post-author,
+.listfeaturedtag span.post-date,
+.listfeaturedtag span.post-read-more a{
+    color: var(--mg-text-featured);
+}
+
+
+.listrecent h2.card-title {
+    color: var(--mg-text);
+}
+
 .listfeaturedtag h4.card-text,
 .listrecent h4.card-text {
-    color: rgba(0, 0, 0, .44);
+    color: var(--mg-text);
     font-size: 0.95rem;
     line-height: 1.6;
     font-weight: 400;
+}
+
+.listfeaturedtag h4.card-text{
+    color: var(--mg-text-featured);
+}
+
+.listrecent h4.card-text {
+    color: var(--mg-text);
+}
+
+.card-footer {
+    color: var(--mg-text) !important;
 }
 
 .featured-box-img-cover {
@@ -230,6 +266,7 @@ section.recent-posts {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    color: var(--mg-text);
 }
 
 .author-thumb {
@@ -283,13 +320,9 @@ span.author-meta {
     display: inline-block;
 }
 
-span.post-author {
-    color: var(--mg-brown) !important;
-}
-
 span.post-date,
 span.post-read {
-    color: rgba(0, 0, 0, .44);
+    color: var(--mg-text);
 }
 
 span.post-read-more {
@@ -300,7 +333,7 @@ span.post-read-more {
 }
 
 span.post-read-more a {
-    color: rgba(0, 0, 0, .44);
+    color: var(--mg-text)
 }
 
 span.post-name a,
@@ -379,6 +412,12 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
+    font-size: 3rem;
+    font-family: Righteous;
+}
+
+.lead {
+    font-size: 1.5rem;
     font-family: Righteous;
 }
 
