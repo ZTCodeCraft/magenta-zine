@@ -34,9 +34,17 @@
 
     // Check if the email field is empty
     if (userEmail.trim() === '') {
-      // Display an alert for empty email
-      alert('Моля въведете вашия имейл адрес!');
-      return; // Exit the function if the email is empty
+        // Display an alert for empty email
+        alert('Моля въведете вашия имейл адрес!');
+        return; // Exit the function if the email is empty
+    }
+
+    // Validate the email using a regular expression
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(userEmail)) {
+        // Display an alert for invalid email format
+        alert('Моля въведете валиден имейл адрес!');
+        return; // Exit the function if the email is invalid
     }
 
     // Call the Moosend identify function with the user's email
@@ -44,7 +52,7 @@
 
     // Display a Bootstrap modal with a pretty message
     $('#subscriptionModal').modal('show');
-  }
+}
 </script>
 
 
