@@ -387,7 +387,13 @@ https://search.google.com/structured-data/testing-tool/u/0/
         </div>
         <!-- Newsletter section -->
         <div class="col-md-6">
-            <a class="btn pink" data-mooform-id="469d74ed-b0cd-4425-a9f2-f1c88280372f" href="#">Абонирайте се за нашия бюлетин!</a>
+          <div class="newsletter">
+            <h4>Абонирайте се за нашия бюлетин!</h4>
+            <form>
+              <input type="email" id="email" name="email" required>
+              <button type="button" class="btn pink" onclick="subscribeNewsletter()">Subscribe</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
