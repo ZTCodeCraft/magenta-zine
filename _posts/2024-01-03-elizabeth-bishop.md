@@ -2,8 +2,8 @@
 layout: post
 title: "Уводи: Елизабет Бишъп - живот и творчество"
 author: "Златица Маркова"
-categories: [Есета и статии]
-images: assets/images/jumborton.jpg
+categories: [ есета и статии ]
+image: assets/images/jumbotron.jpg
 ---
 
 <p> 
