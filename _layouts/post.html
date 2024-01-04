@@ -57,7 +57,12 @@ post_class: post-template
             <!-- End Featured Image -->
 
             <!-- Post Content -->
+            {% if page.categories contains "Поезия" %}
             <div class="article-post d-flex align-items-center flex-column">
+            {% else %}
+            <div class="article-post d-flex flex-column">
+            {% endif %}
+            
                 <!-- Toc if any -->
                 {% if page.toc %}
                     {% if page.beforetoc %}

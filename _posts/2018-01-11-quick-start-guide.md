@@ -2,12 +2,11 @@
 layout: post
 title:  "Дрезден"
 author: "Гео Милев"
-categories: [ Pазкази ]
+categories: [ Поезия ]
 image: assets/images/6.png
 featured: true
 hidden: true
 ---
-
 Аз боя се от смеховете,<br>
 от злите женски смехове,<br>
 аз се боя от радостта им,<br>

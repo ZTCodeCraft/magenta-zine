@@ -61,6 +61,10 @@
 <lastmod>2024-01-03T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/magenta-zine/dom/</loc>
+<lastmod>2024-01-04T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/magenta-zine/about</loc>
 </url>
 <url>
@@ -77,6 +81,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/magenta-zine/category/%D0%B5%D1%81%D0%B5%D1%82%D0%B0-%D0%B8-%D1%81%D1%82%D0%B0%D1%82%D0%B8%D0%B8/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/magenta-zine/category/%D1%80%D0%B0%D0%B7%D0%BA%D0%B0%D0%B7%D0%B8/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/magenta-zine/page2/</loc>
