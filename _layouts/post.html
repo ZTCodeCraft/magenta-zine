@@ -57,7 +57,7 @@ post_class: post-template
             <!-- End Featured Image -->
 
             <!-- Post Content -->
-            {% if page.categories contains "Поезия" %}
+            {% if page.categories contains "Поезия" or page.categories contains "поезия" %}
             <div class="article-post d-flex align-items-center flex-column">
             {% else %}
             <div class="article-post d-flex flex-column">

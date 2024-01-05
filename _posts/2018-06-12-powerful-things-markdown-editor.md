@@ -2,7 +2,7 @@
 layout: post
 title:  "Из 'Не ви познавам'"
 author: "Атанас Далчев"
-categories: [ Поезия ]
+categories: [ поезия ]
 image: assets/images/8.png
 
 

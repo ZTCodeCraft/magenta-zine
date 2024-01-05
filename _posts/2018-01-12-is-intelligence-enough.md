@@ -2,7 +2,7 @@
 layout: post
 title:  "Под моста"
 author: "Асен Христов"
-categories: [ Pазкази ]
+categories: [ разкази ]
 image: assets/images/5.png
 ---
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Дрезден"
 author: "Гео Милев"
-categories: [ Поезия ]
+categories: [ поезия ]
 image: assets/images/6.png
 featured: true
 hidden: true

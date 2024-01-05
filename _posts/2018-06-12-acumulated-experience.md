@@ -2,7 +2,7 @@
 layout: post
 title:  "Сълзи"
 author: "Мария Дачева"
-categories: [ Поезия ]
+categories: [ поезия ]
 image: assets/images/4.png
 featured: true
 hidden: true

@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-    color: #038252;
+    color: var(--mg-dark-pink);
     text-decoration: none;
 }
 
@@ -129,6 +129,16 @@ section.recent-posts {
 .article-post ul ul {
     list-style: disc;
     margin-bottom: 0rem;
+}
+
+.article-post a {
+    color: var(--mg-light-pink);
+    transition: all 0.2s;
+}
+
+.article-post a:hover {
+    color: var(--mg-dark-pink);
+    text-decoration: none;
 }
 
 @media (min-width:576px) {
