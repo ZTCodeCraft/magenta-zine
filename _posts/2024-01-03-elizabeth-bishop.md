@@ -2,6 +2,7 @@
 layout: post
 title: "Уводи: Елизабет Бишъп - живот и творчество"
 author: "Златица Маркова"
+illustrator: "Library of America"
 categories: [ есета и статии ]
 image: assets/images/elizabeth-bishop-library-of-america.jpg
 ---
