@@ -330,12 +330,17 @@ span.author-meta {
     display: inline-block;
 }
 
-.post-illustrator {
+.illustrator {
     margin-bottom: 4rem;
+}
+
+.post-top-meta .post-illustrator {
+    color: var(--mg-brown) !important;
 }
 
 .post-top-meta .post-author {
     color: var(--mg-brown) !important;
+    font-size: 1.4rem;
 }
 
 span.post-date,

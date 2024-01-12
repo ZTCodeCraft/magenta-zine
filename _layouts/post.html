@@ -27,7 +27,7 @@ post_class: post-template
                 {% if page.author %}
                 <div class="row post-top-meta justify-content-center">
                     <div class="mb-4">
-                        <a target="_blank" class="post-author"><b>{{ page.author }}</b></a>
+                        <a target="_blank" class="post-author">{{ page.author }}</a>
                     </div>
                 </div>
                 {% endif %}      
@@ -55,10 +55,10 @@ post_class: post-template
             <!-- End Featured Image -->
 
             <!-- Illustrator Box -->
-            <div class="row post-top-meta justify-content-center post-illustrator">
+            <div class="row post-top-meta justify-content-center illustrator">
                 {% if page.illustrator %}
                 <div class="mb-4">
-                    <a target="_blank" class="post-author">Илюстрация: {{ page.illustrator }}</a>
+                    <a target="_blank" class="post-illustrator">Илюстрация: {{ page.illustrator }}</a>
                 </div>
                 {% endif %}
             </div>
