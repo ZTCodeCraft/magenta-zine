@@ -232,6 +232,9 @@ section.recent-posts {
     color: var(--mg-text-featured);
 }
 
+.post-top-meta .post-author {
+    color: var(--mg-brown) !important;
+}
 
 .listrecent h2.card-title {
     color: var(--mg-text);
@@ -480,6 +483,10 @@ blockquote {
 }
 
 .post-img {
+    margin-bottom: 1rem;
+}
+
+.post-illustrator {
     margin-bottom: 5rem;
 }
 
