@@ -330,6 +330,14 @@ span.author-meta {
     display: inline-block;
 }
 
+.post-illustrator {
+    margin-bottom: 4rem;
+}
+
+.post-top-meta .post-author {
+    color: var(--mg-brown) !important;
+}
+
 span.post-date,
 span.post-read {
     color: var(--mg-text);
@@ -480,7 +488,7 @@ blockquote {
 }
 
 .post-img {
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .share {
