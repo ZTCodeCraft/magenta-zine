@@ -2,9 +2,9 @@
 layout: post
 title: "Да се учиш да летиш"
 author: "Ерин Гилби"
-illustrator: 
+illustrator: Natasha Newton от <a herf="https://www.natashanewton.com/">natashanewton.com</a>
 categories: [ поезия ]
-image: 
+image: assets/images/forest.jpg
 featured: true
 hidden: true
 ---
