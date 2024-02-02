@@ -2,9 +2,9 @@
 layout: post
 title: "Да се учиш да летиш"
 author: "Ерин Гилби"
-illustrator: carmendeno from (https://www.designspiration.com/save/79724369971/)Flickr.com
+illustrator: 
 categories: [ поезия ]
-image: flickrpic.jpg
+image: 
 featured: true
 hidden: true
 ---
