@@ -2,9 +2,9 @@
 layout: post
 title: "Изсъхнали"
 author: "Телма Мантий"
-illustrator: carmendeno from <a href="https://www.designspiration.com/save/79724369971/">Flickr.com</a>
+illustrator: Jen Ament from <a href="https://www.jenniferament.com/">jenniferament.com</a>
 categories: [ разкази ]
-image:  assets/images/flickrpic.jpg
+image: assets/images/ada.jpg
 featured: true
 hidden: true
 ---
