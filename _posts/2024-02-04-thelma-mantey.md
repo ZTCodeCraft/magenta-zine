@@ -5,8 +5,6 @@ author: "Телма Мантий"
 illustrator: Jen Ament from <a href="https://www.jenniferament.com/">jenniferament.com</a>
 categories: [ разкази ]
 image: assets/images/ada.jpg
-featured: true
-hidden: true
 ---
 &emsp;Нищо не се е променило - музиката, жегата, тълпата. Вени трептят заедно със земята, подути до пръскане, а кръвта тече яростно. Въздухът е напоен с пот и мечти. Басът е бог, отговарящ на молитви.
 
